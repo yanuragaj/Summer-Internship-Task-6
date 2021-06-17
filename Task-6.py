@@ -211,7 +211,7 @@ while True:
             cv2.destroyAllWindows() 
             cap.release()
             #calling function to send gmail
-            send_email("yanuragaj@gmail.com", "yanuragaj@gmail.com", 'TASK-6', 'This is face of Anurag.')
+            send_email("abc@gmail.com", "abc@gmail.com", 'TASK-6', 'This is face of Anurag.')
             #calling function to send message on whatsapp
             whatsapp()
             break
